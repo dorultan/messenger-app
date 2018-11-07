@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Messenger app</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+ <header class="header">
+  <form id="messenger" name="messenger">
+  	<fieldset>
+  		<input id="username" type="text" name="username" placeholder="Name. e.g John Doe">
+  	</fieldset>
+  	<fieldset>
+  		<textarea id="message" name="message" placeholder="Write a message ..."></textarea>
+  	</fieldset>
+  	<div class="submit-btn-w">
+  	 <button type="submit">Send</button>
+  	</div>
+  </form>
+ </header>
+ <section id="messages">
+ </section>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+ <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

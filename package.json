@@ -1,0 +1,20 @@
+{
+  "name": "messenger",
+  "version": "1.0.0",
+  "description": "Messenger app test",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "messenger"
+  ],
+  "author": "Dorultan Ianos",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "socket.io": "^2.1.1"
+  }
+}
