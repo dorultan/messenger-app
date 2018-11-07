@@ -12,7 +12,6 @@
   "author": "Dorultan Ianos",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
     "express": "^4.16.4",
     "path": "^0.12.7",
     "socket.io": "^2.1.1"
